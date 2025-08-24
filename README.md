@@ -227,7 +227,7 @@ The library includes built-in rate limiting to respect Bitget's API limits:
 
 ## Getting API Credentials
 
-1. Sign up at [Bitget](https://www.bitget.com/)
+1. Sign up at [Bitget](https://bonus.bitget.com/TNH1AZ)
 2. Go to API Management in your account settings
 3. Create a new API key with appropriate permissions
 4. Save your API Key, Secret Key, and Passphrase securely
