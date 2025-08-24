@@ -250,7 +250,7 @@ This library is not officially affiliated with Bitget. Use at your own risk. Alw
 
 ## Changelog
 
-### v1.0.0
+### v0.1.0
 - Initial release
 - Complete REST API coverage
 - WebSocket support for real-time data
