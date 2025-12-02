@@ -250,6 +250,17 @@ This library is not officially affiliated with Bitget. Use at your own risk. Alw
 
 ## Changelog
 
+### v0.2.0
+- Added comprehensive constants library for options
+- Added Hedge mode trade sides (open, close)
+- Added Force options (GTC, IOC, FOK, Post-Only)
+- Added Reduce only options
+- Added STP Modes (Self Trade Prevention)
+- Added Order states (live, partially_filled, filled, canceled)
+- Added Trigger types (fill_price, mark_price)
+- Added Hold sides (long, short)
+- Improved type safety with additional constants
+
 ### v0.1.0
 - Initial release
 - Complete REST API coverage

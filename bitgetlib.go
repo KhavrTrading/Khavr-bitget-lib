@@ -174,15 +174,52 @@ const (
 	ProductTypeSCOINFutures = "SCOIN-FUTURES"
 	ProductTypeSUSDCFutures = "SUSDC-FUTURES"
 
-	// Order sides
+	// Margin modes
+	MarginModeIsolated = "isolated"
+	MarginModeCrossed  = "crossed"
+
+	// Trade sides
 	SideBuy  = "buy"
 	SideSell = "sell"
+
+	// Hedge mode trade sides
+	TradeSideOpen  = "open"
+	TradeSideClose = "close"
 
 	// Order types
 	OrderTypeLimit  = "limit"
 	OrderTypeMarket = "market"
 
-	// Margin modes
-	MarginModeIsolated = "isolated"
-	MarginModeCrossed  = "crossed"
+	// Force options for limit orders
+	ForceGTC      = "gtc"
+	ForceIOC      = "ioc"
+	ForceFOK      = "fok"
+	ForcePostOnly = "post_only"
+
+	// Reduce only options
+	ReduceOnlyYes = "YES"
+	ReduceOnlyNo  = "NO"
+
+	// STP Modes (Self Trade Prevention)
+	STPModeNone        = "none"
+	STPModeCancelTaker = "cancel_taker"
+	STPModeCancelMaker = "cancel_maker"
+	STPModeCancelBoth  = "cancel_both"
+
+	// Default margin coin
+	DefaultMarginCoin = "usdt"
+
+	// Hold side - long or short
+	HoldSideLong  = "long"
+	HoldSideShort = "short"
+
+	// Order states
+	OrderStateLive            = "live"
+	OrderStatePartiallyFilled = "partially_filled"
+	OrderStateFilled          = "filled"
+	OrderStateCanceled        = "canceled"
+
+	// Trigger types
+	TriggerTypeFillPrice = "fill_price"
+	TriggerTypeMarkPrice = "mark_price"
 )
